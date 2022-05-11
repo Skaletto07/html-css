@@ -1,0 +1,50 @@
+body {
+    font-family: sans-serif;
+}
+
+.par {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.h1cl {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.h2Contacts {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.h3cls {
+    font-size: 36px;
+    text-align: center;
+}
+
+.h4cls {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input {
+    border: 1px solid #356ead;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.sendBtn {
+    background: #5a98d0;
+    box-shadow: 5px 20px 50 px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+}
