@@ -62,23 +62,16 @@ body {
 
 .top__text {
     text-align: start;
-
     width: 425px;
-
     left: 114px;
     top: 369px;
-
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    /* or 162% */
 
     letter-spacing: 0.05em;
 
-    /* Blue_01 */
-
     color: #1F3F68;
-
     opacity: 0.6;
 }
 
@@ -90,6 +83,15 @@ body {
     color: #1F3F68;
     letter-spacing: 0.05px;
     opacity: 0.6;
+
+}
+
+.text_project {
+    width: 75%;
+    margin: 32px auto 64px;
+    opacity: 1;
+    color: #222222;
+    text-align: center;
 
 }
 
@@ -163,6 +165,57 @@ body {
     color: #1F3F68;
     letter-spacing: 0.05em;
     margin-bottom: 14px;
+}
+
+.project {}
+
+.project__item {
+    position: relative;
+    flex-grow: 1;
+
+}
+
+.project__item_margin {
+    margin-right: 32px;
+}
+
+.project__img {
+    width: 100%;
+}
+
+.project__parant {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 32px;
+
+
+}
+
+.project__text2 {
+    position: absolute;
+    top: 32px;
+    left: 32px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+
+
+.project__text {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 46px;
+    text-align: right;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    position: absolute;
+    top: 64px;
+    right: 64px;
+
 }
 
 .input {
